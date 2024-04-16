@@ -37,9 +37,9 @@
 
 // maintain an array of Able Player instances for use globally (e.g., for keeping prefs in sync)
 var AblePlayerInstances = [];
-
 (function ($) {
-	$(window).on('load', function () {
+	// $(function () {
+	$(window).on('load', function() {
 		$('video, audio').each(function (index, element) {
 			if ($(element).data('able-player') !== undefined) {
 				AblePlayerInstances.push(new AblePlayer($(this),$(element)));
