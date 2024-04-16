@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AblePlayer Demo</title>
+	<!-- Dependencies -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+	<script src="build/ableplayer.min.js"</script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="build/ableplayer.min.css" type="text/css"/>
+
+	<!-- JavaScript -->
+	<script src="build/ableplayer.min.js"></script>
+</head>
+<body>
+	<audio id="audio1" data-able-player preload="auto" data-seek-interval="5">
+  		<!-- <source type="audio/ogg" src="path_to_audio_file.ogg"/> -->
+  		<source type="audio/mpeg" src="frenchsong.mp3"/>
+	</audio>
+</body>
+</html>
